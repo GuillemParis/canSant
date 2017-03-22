@@ -7,6 +7,7 @@
   src: url('../fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf');
 }
 body {
+  color: white;
   background-color: black;
 }
 body header {
@@ -20,9 +21,14 @@ body header .button {
   font-family: 'ubuntu';
   background-color: black;
   border: none;
-  color: white;
   transition: color 0.5s;
 }
 body header .button:hover {
   color: #cdcdcd;
+}
+body #contacto .row div {
+  display: inline-block;
+}
+body #contacto .row .social {
+  text-align: center;
 }

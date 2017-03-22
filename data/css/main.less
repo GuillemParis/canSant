@@ -2,6 +2,7 @@ out: main.css, sourcemap: false, compress: true;
 
 @backroundColor: black;
 @textColor: white;
+@menuText: 'ubuntu';
 
 @font-face {
   font-family: 'gidugu';
@@ -13,6 +14,7 @@ out: main.css, sourcemap: false, compress: true;
 }
 
 body{
+  color: @textColor;
   background-color: @backroundColor;
   header{
     text-align: center;
@@ -21,17 +23,29 @@ body{
     }
     .button{
       font-size: 2em;
-      font-family: 'ubuntu';
+      font-family: @menuText;
       background-color: @backroundColor;
       border: none;
-      color: @textColor;
       transition: color 0.5s;
     }
     .button:hover{
       color: @textColor - 50;
     }
   }
-  main{
-    
+  #inicio{
+
+  }
+  #galeria{
+
+  }
+  #contacto{
+    .row{
+      div{
+        display: inline-block;
+      }
+      .social{
+        text-align: center;
+      }
+    }
   }
 }
