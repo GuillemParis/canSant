@@ -1,6 +1,28 @@
+@font-face {
+  font-family: 'gidugu';
+  src: url('../fonts/Gidugu/Gidugu-Regular.ttf');
+}
+@font-face {
+  font-family: 'ubuntu';
+  src: url('../fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf');
+}
 body {
   background-color: black;
 }
-div {
-  background-color: white;
+body header {
+  text-align: center;
+}
+body header #logo {
+  width: 100%;
+}
+body header .button {
+  font-size: 2em;
+  font-family: 'ubuntu';
+  background-color: black;
+  border: none;
+  color: white;
+  transition: color 0.5s;
+}
+body header .button:hover {
+  color: #cdcdcd;
 }
