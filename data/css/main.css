@@ -26,3 +26,6 @@ body header .button {
 body header .button:hover {
   color: #cdcdcd;
 }
+body main .row {
+  background-color: #efefef;
+}
