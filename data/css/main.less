@@ -3,6 +3,7 @@ out: main.css, sourcemap: false, compress: true;
 @backroundColor: black;
 @textColor: white;
 @menuText: 'ubuntu';
+@pagesColor: #efefef;
 
 @font-face {
   font-family: 'gidugu';
@@ -46,6 +47,12 @@ body{
       .social{
         text-align: center;
       }
+    }
+  }
+
+  main{
+    .row{
+      background-color: @pagesColor;
     }
   }
 }

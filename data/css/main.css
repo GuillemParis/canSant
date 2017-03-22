@@ -32,3 +32,6 @@ body #contacto .row div {
 body #contacto .row .social {
   text-align: center;
 }
+body main .row {
+  background-color: #efefef;
+}
