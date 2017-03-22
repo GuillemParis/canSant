@@ -1,5 +1,7 @@
 $(document).ready(function() {
     $("#inicio").show();
+    $("#galeria").hide();
+    $("#contacto").hide();
 
     $("#galeriaBTN").click(function(){
       $("#inicioBTN").prop('disabled', true);
