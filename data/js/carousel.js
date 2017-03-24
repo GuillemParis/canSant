@@ -11,15 +11,14 @@ $(document).ready(function() {
             for (var i = 2; i < imagenes.length; i++) {
                 $(".slider").append('<div><img src="data/img/sales/' + imagenes[i] + '"/></div>')
             }
+            $('.slider').slick({
+                dots: true,
+                arrows: false,
+                speed: 700,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true
+            });
         }
     });
-
-        $('.slider').slick({
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 1,
-            centerMode: true,
-            variableWidth: true
-        });
 });

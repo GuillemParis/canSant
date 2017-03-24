@@ -1,61 +1,102 @@
-out: main.css, sourcemap: false, compress: true;
-
+out:main.css, sourcemap:false, compress: true;
 @backroundColor: black;
 @textColor: white;
 @menuText: 'ubuntu';
 @pagesColor: #efefef;
-
 @font-face {
-  font-family: 'gidugu';
-  src: url('../fonts/Gidugu/Gidugu-Regular.ttf');
+    font-family: 'gidugu';
+    src: url('../fonts/Gidugu/Gidugu-Regular.ttf');
 }
 @font-face {
-  font-family: 'ubuntu';
-  src: url('../fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf');
+    font-family: 'ubuntu';
+    src: url('../fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf');
 }
 
-.common{
-  //css en comu a tots el body
-  background-color: #efefef;
-  color: black;
-  border-radius: 1em;
-  padding: 2em;
+.slides {
+    max-height: 80vh;
 }
 
-body{
-  color: @textColor;
-  background-color: @backroundColor;
-  header{
-    text-align: center;
-    #logo{
-      width: 100%;
-    }
-    .button{
-      font-size: 2em;
-      font-family: @menuText;
-      background-color: @backroundColor;
-      border: none;
-      transition: color 0.5s;
-    }
-    .button:hover{
-      color: @textColor - 50;
-    }
-  }
-  #inicio{
-    .common;
-  }
-  #galeria{
-    .common;
-  }
-  #contacto{
-    .common;
-    .row{
-      div{
-        display: inline-block;
-      }
-      .social{
+.common {
+    //css en comu a tots el body
+    background-color: #efefef;
+    color: black;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.sombra1 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.sombra2 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.sombra3 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.sombra4 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+body {
+    color: @textColor;
+    background-color: @backroundColor;
+
+    header {
         text-align: center;
-      }
+
+        #logo {
+            width: 100%;
+        }
+
+        .button {
+            font-size: 2em;
+            font-family: @menuText;
+            background-color: @backroundColor;
+            border: none;
+            transition: color 0.5s;
+        }
+
+        .button:hover {
+            color: @textColor - 50;
+        }
     }
-  }
+
+    #inicio {
+        .common;
+    }
+
+    #galeria {
+        .common;
+
+        .slider {
+
+          margin: 2em;
+            div,
+            img {
+                .slides;
+            }
+            img {
+              margin: 1em;
+              .sombra1;
+            }
+
+        }
+    }
+
+    #contacto {
+        .common;
+
+        .row {
+            div {
+                display: inline-block;
+            }
+
+            .social {
+                text-align: center;
+            }
+        }
+    }
 }
