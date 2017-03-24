@@ -6,6 +6,10 @@
   font-family: 'ubuntu';
   src: url('../fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf');
 }
+.common {
+  background-color: #efefef;
+  color: black;
+}
 body {
   color: white;
   background-color: black;
@@ -26,12 +30,21 @@ body header .button {
 body header .button:hover {
   color: #cdcdcd;
 }
+body #inicio {
+  background-color: #efefef;
+  color: black;
+}
+body #galeria {
+  background-color: #efefef;
+  color: black;
+}
+body #contacto {
+  background-color: #efefef;
+  color: black;
+}
 body #contacto .row div {
   display: inline-block;
 }
 body #contacto .row .social {
   text-align: center;
-}
-body main .row {
-  background-color: #efefef;
 }
