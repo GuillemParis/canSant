@@ -9,6 +9,8 @@
 .common {
   background-color: #efefef;
   color: black;
+  border-radius: 1em;
+  padding: 2em;
 }
 body {
   color: white;
@@ -33,14 +35,20 @@ body header .button:hover {
 body #inicio {
   background-color: #efefef;
   color: black;
+  border-radius: 1em;
+  padding: 2em;
 }
 body #galeria {
   background-color: #efefef;
   color: black;
+  border-radius: 1em;
+  padding: 2em;
 }
 body #contacto {
   background-color: #efefef;
   color: black;
+  border-radius: 1em;
+  padding: 2em;
 }
 body #contacto .row div {
   display: inline-block;
