@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'gidugu';
-  src: url('../fonts/Gidugu/Gidugu-Regular.ttf');
+  font-family: 'openSansRegular';
+  src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
 }
 @font-face {
   font-family: 'ubuntu';
   src: url('../fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf');
 }
 .common {
-  background-color: #efefef;
-  color: black;
+  font-family: 'openSansRegular';
+  font-size: 1em;
 }
 body {
   color: white;
@@ -31,20 +31,38 @@ body header .button:hover {
   color: #cdcdcd;
 }
 body #inicio {
-  background-color: #efefef;
-  color: black;
+  font-family: 'openSansRegular';
+  font-size: 1em;
 }
 body #galeria {
-  background-color: #efefef;
-  color: black;
+  font-family: 'openSansRegular';
+  font-size: 1em;
 }
 body #contacto {
+  font-family: 'openSansRegular';
+  font-size: 1em;
+}
+body #contacto #inf {
   background-color: #efefef;
   color: black;
 }
-body #contacto .row div {
+body #contacto #inf div {
   display: inline-block;
 }
-body #contacto .row .social {
+body #contacto #inf #googleMap {
+  width: 100%;
+  height: 400px;
+}
+body #contacto #social div {
+  display: inline-block;
   text-align: center;
+  font-size: 1.3em;
+}
+body #contacto #social div .fa-facebook-official {
+  color: #3B5998;
+  margin-right: 4px;
+}
+body #contacto #social div .fa-twitter {
+  color: #1DA1F2;
+  margin-right: 4px;
 }
