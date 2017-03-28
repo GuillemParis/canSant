@@ -33,6 +33,7 @@
 body {
   color: white;
   background-color: black;
+  margin-bottom: 10px;
 }
 body header {
   text-align: center;
@@ -98,11 +99,24 @@ body #contacto #inf {
 body #contacto #inf div {
   display: inline-block;
 }
-body #contacto #inf #googleMap {
+@media only screen and (max-device-width: 576px) {
+  body #contacto #inf div {
+    text-align: center;
+  }
+}
+body #contacto #inf div #googleMap {
   border: 1px solid darkgrey;
   width: 100%;
   height: 400px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+@media only screen and (max-device-width: 576px) {
+  body #contacto #inf div #googleMap {
+    height: 200px;
+  }
+}
+body #contacto #inf #text {
+  padding-top: 10%;
 }
 body #contacto #social {
   margin-top: 10px;
