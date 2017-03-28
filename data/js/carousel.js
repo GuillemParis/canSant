@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $.ajax({
         url: './data/php/carousel.php',
         data: {
@@ -12,10 +13,12 @@ $(document).ready(function() {
             }
             $('.slider').slick({
                 dots: true,
-                speed: 700,
+                speed: 1000,
                 slidesToShow: 1,
                 centerMode: true,
-                variableWidth: true
+                variableWidth: true,
+                autoplay: true,
+                altoplaySpeed: 200
             });
         }
     });
