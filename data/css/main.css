@@ -79,6 +79,10 @@ body #galeria .slider img {
   margin: 1em;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+body #galeria .slider .slick-prev:before,
+body #galeria .slider .slick-next:before {
+  color: #090909;
+}
 body #contacto {
   font-family: 'openSansRegular';
   font-size: 1em;

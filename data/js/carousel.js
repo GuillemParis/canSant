@@ -12,11 +12,12 @@ $(document).ready(function() {
             }
             $('.slider').slick({
                 dots: true,
-                arrows: false,
-                speed: 700,
+                speed: 1000,
                 slidesToShow: 1,
                 centerMode: true,
-                variableWidth: true
+                variableWidth: true,
+                autoplay: true,
+                altoplaySpeed: 200
             });
         }
     });
