@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     $.ajax({
         url: './data/php/carousel.php',
         data: {
