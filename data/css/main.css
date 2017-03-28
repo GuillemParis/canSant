@@ -6,9 +6,27 @@
   font-family: 'ubuntu';
   src: url('../fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf');
 }
+.slides {
+  max-height: 80vh;
+}
 .common {
   font-family: 'openSansRegular';
   font-size: 1em;
+  background-color: #efefef;
+  border-radius: 1em;
+  padding: 2em;
+}
+.sombra1 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.sombra2 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.sombra3 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.sombra4 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 body {
   color: white;
@@ -33,14 +51,34 @@ body header .button:hover {
 body #inicio {
   font-family: 'openSansRegular';
   font-size: 1em;
+  background-color: #efefef;
+  border-radius: 1em;
+  padding: 2em;
 }
 body #galeria {
   font-family: 'openSansRegular';
   font-size: 1em;
+  background-color: #efefef;
+  border-radius: 1em;
+  padding: 2em;
+}
+body #galeria .slider {
+  margin: 2em;
+}
+body #galeria .slider div,
+body #galeria .slider img {
+  max-height: 80vh;
+}
+body #galeria .slider img {
+  margin: 1em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 body #contacto {
   font-family: 'openSansRegular';
   font-size: 1em;
+  background-color: #efefef;
+  border-radius: 1em;
+  padding: 2em;
 }
 body #contacto #inf {
   background-color: #efefef;

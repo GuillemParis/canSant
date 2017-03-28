@@ -37,9 +37,9 @@ $(document).ready(function() {
           $("#inicioBTN").prop('disabled', false);
           $("#galeriaBTN").prop('disabled', false);
           myMap();
-      }, 250)
+      }, 250) 
     });
-function myMap() {
+  function myMap() {
     var center = new google.maps.LatLng(39.57250958154583,3.2014614364820773);
     var mapProp= {
         center:center,
