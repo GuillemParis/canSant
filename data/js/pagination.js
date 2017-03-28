@@ -12,6 +12,7 @@ $(document).ready(function() {
           $("#galeria").fadeIn(250);
           $("#inicioBTN").prop('disabled', false);
           $("#contactoBTN").prop('disabled', false);
+          runCarousel();
       }, 250)
     });
 
@@ -38,5 +39,5 @@ $(document).ready(function() {
           $("#galeriaBTN").prop('disabled', false);
           myMap();
       }, 250)
-    });  
+    });
 });
