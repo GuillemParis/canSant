@@ -8,6 +8,7 @@
 }
 .slides {
   max-height: 80vh;
+  max-width: 70vw;
   margin: 0 1em 0 1em;
 }
 .common {
@@ -71,14 +72,13 @@ body #galeria {
   color: black;
 }
 body #galeria .slider {
+  height: 80vh;
   margin: 2em;
 }
-body #galeria .slider div,
 body #galeria .slider img {
   max-height: 80vh;
+  max-width: 70vw;
   margin: 0 1em 0 1em;
-}
-body #galeria .slider img {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 body #galeria .slider .slick-next:before,
@@ -115,8 +115,14 @@ body #contacto #inf div #googleMap {
     height: 200px;
   }
 }
-body #contacto #inf #text {
-  padding-top: 10%;
+body #contacto #inf div .inf-part {
+  display: block;
+  background-color: #DDD;
+  padding: 1em;
+  border: 1px solid #FDFDFD;
+  border-radius: 1em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 1em;
 }
 body #contacto #social {
   margin-top: 10px;
