@@ -8,14 +8,14 @@
 }
 .slides {
   max-height: 80vh;
+  margin: 0 1em 0 1em;
 }
 .common {
   font-family: 'openSansRegular';
   font-size: 1em;
   background-color: #efefef;
   border-radius: 1em;
-  padding: 2em;
-  padding-bottom: 1em;
+  padding: 2em 2em 1em;
   color: black;
 }
 .sombra1 {
@@ -34,6 +34,9 @@ body {
   color: white;
   background-color: black;
   margin-bottom: 10px;
+}
+body .container {
+  margin-bottom: 2em;
 }
 body header {
   text-align: center;
@@ -56,8 +59,7 @@ body #inicio {
   font-size: 1em;
   background-color: #efefef;
   border-radius: 1em;
-  padding: 2em;
-  padding-bottom: 1em;
+  padding: 2em 2em 1em;
   color: black;
 }
 body #galeria {
@@ -65,8 +67,7 @@ body #galeria {
   font-size: 1em;
   background-color: #efefef;
   border-radius: 1em;
-  padding: 2em;
-  padding-bottom: 1em;
+  padding: 2em 2em 1em;
   color: black;
 }
 body #galeria .slider {
@@ -75,13 +76,13 @@ body #galeria .slider {
 body #galeria .slider div,
 body #galeria .slider img {
   max-height: 80vh;
+  margin: 0 1em 0 1em;
 }
 body #galeria .slider img {
-  margin: 1em;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-body #galeria .slider .slick-prev:before,
-body #galeria .slider .slick-next:before {
+body #galeria .slider .slick-next:before,
+body #galeria .slider .slick-prev:before {
   color: #090909;
 }
 body #contacto {
@@ -89,8 +90,7 @@ body #contacto {
   font-size: 1em;
   background-color: #efefef;
   border-radius: 1em;
-  padding: 2em;
-  padding-bottom: 1em;
+  padding: 2em 2em 1em;
   color: black;
 }
 body #contacto #inf {
