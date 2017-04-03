@@ -13,11 +13,13 @@ $(document).ready(function() {
         }
     });
 });
-function runCarousel(){
+
+function runCarousel() {
+    // if ($(window).height() >)
     $('.slider').slick({
+        infinite: true,
         dots: false,
         speed: 1000,
-        slidesToShow: 1,
         centerMode: true,
         variableWidth: true,
         autoplay: true,
