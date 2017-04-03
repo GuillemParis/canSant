@@ -40,4 +40,5 @@ $(document).ready(function() {
           myMap();
       }, 250)
     });
+    fConnect();
 });
