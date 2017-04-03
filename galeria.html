@@ -1,10 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title></title>
 </head>
+
 <body>
-<div class="col-sm-12 row" id="galeria">
-</div>
+    <div class="container">
+        <header class="row col-sm-12">
+            <div class="col-sm-4" id="logo">
+                <a href="index.html">
+                    <img src="data/img/canSant_logo.png" alt="Can Sant's logo">
+                </a>
+            </div>
+            <nav class="btn-group col-sm-12">
+                <div class="col-sm-4"><button type="button" class="button" id="inicioBTN">inicio</button></div>
+                <div class="col-sm-4"><button type="button" class="button" id="galeriaBTN">galeria</button></div>
+                <div class="col-sm-4"><button type="button" class="button" id="contactoBTN">contace</button></div>
+            </nav>
+        </header>
+        <main class="col-sm-12">
+            <div class="col-sm-12 row" id="galeria">
+                <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="data/img/sales/BATERIA.jpg" alt="bateria">
+                            <div class="carousel-caption">
+                                <h3>Hello World!</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <link rel="stylesheet" href="data/css/bootstrap.min.css">
+            <link rel="stylesheet" href="data/font-awesome-4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="data/css/main.css">
+            <script src="data/js/jquery.js"></script>
+            <script src="data/js/bootstrap.min.js"></script>
+            <script src="data/js/header.js"></script>
+            <script src="data/js/carousel.js"></script>
+            <script src="data/js/social_network.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkBPt2QqPATrxwqPECfl9M8P-2tNWiaoc"></script>
+        </footer>
 </body>
+
 </html>
