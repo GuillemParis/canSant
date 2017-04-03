@@ -1,0 +1,32 @@
+body {
+  background-color: @backgroundColor;
+
+  main {
+    background-color: @pagesColor;
+    border-radius: 2em;
+    padding: 2em;
+
+    #img-container{
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      .thumbnail{
+        width: 10em;
+        height: 10em;
+        background-size: cover;
+        box-shadow: @sombra1;
+        // padding-top: 0;
+        transition: 0.5s;
+      }
+
+      .thumbnail:hover{
+        box-shadow: @sombra4;
+        // padding-top: -1em;
+        transition: 0.5s;
+      }
+    }
+  }
+}
