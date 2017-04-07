@@ -1,32 +1,45 @@
+@thumbnailSize: 15em;
+
 body {
-  background-color: @backgroundColor;
+    background-color: @backgroundColor;
 
-  main {
-    background-color: @pagesColor;
-    border-radius: 2em;
-    padding: 2em;
+    main {
+        background-color: @pagesColor;
+        border-radius: 2em;
+        margin-bottom: 1em;
 
-    #img-container{
-      width: 100%;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-around;
-      flex-wrap: wrap;
+        #img-container {
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2em;
 
-      .thumbnail{
-        width: 10em;
-        height: 10em;
-        background-size: cover;
-        box-shadow: @sombra1;
-        // padding-top: 0;
-        transition: 0.5s;
-      }
+            .thumbnail {
+                width: @thumbnailSize;
+                height: @thumbnailSize;
+                background-size: cover;
+                box-shadow: @sombra1;
+                transition: 0.5s;
+                margin: 2em 1em 0;
+                cursor: pointer;
+            }
 
-      .thumbnail:hover{
-        box-shadow: @sombra4;
-        // padding-top: -1em;
-        transition: 0.5s;
-      }
+            .thumbnail:hover {
+                box-shadow: @sombra4;
+                transition: 0.5s;
+                height: @thumbnailSize + 1.5em;
+                width: @thumbnailSize + 1.5em;
+                margin-bottom: -1.5em;
+            }
+        }
     }
-  }
+
+    .item {
+        img {
+            max-height: 80vh;
+            width: auto;
+        }
+    }
 }

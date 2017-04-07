@@ -4,25 +4,35 @@ body {
 body main {
   background-color: #efefef;
   border-radius: 2em;
-  padding: 2em;
+  margin-bottom: 1em;
 }
 body main #img-container {
   width: 100%;
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 2em;
 }
 body main #img-container .thumbnail {
-  width: 10em;
-  height: 10em;
+  width: 15em;
+  height: 15em;
   background-size: cover;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: 0.5s;
+  margin: 2em 1em 0;
+  cursor: pointer;
 }
 body main #img-container .thumbnail:hover {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   transition: 0.5s;
+  height: 16.5em;
+  width: 16.5em;
+  margin-bottom: -1.5em;
+}
+body .item img {
+  max-height: 80vh;
+  width: auto;
 }
 @font-face {
   font-family: 'openSansRegular';
