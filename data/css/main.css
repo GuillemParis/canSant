@@ -1,5 +1,20 @@
 body {
   background-color: black;
+  margin-bottom: 2em;
+}
+body main #googleMap {
+  height: 400px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+body main #text {
+  height: 400px;
+}
+body main #text div {
+  text-align: center;
+  margin-top: 10%;
+}
+body {
+  background-color: black;
 }
 body main {
   background-color: #efefef;
@@ -33,6 +48,21 @@ body main #img-container .thumbnail:hover {
 body .item img {
   max-height: 80vh;
   width: auto;
+}
+body {
+  background-color: black;
+  color: black;
+  font-family: 'ubuntu';
+}
+header {
+  color: white;
+  font-family: 'ubuntu';
+  font-size: 2em;
+  text-align: center;
+}
+header button {
+  background-color: black;
+  border-style: none;
 }
 @font-face {
   font-family: 'openSansRegular';
