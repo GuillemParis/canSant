@@ -1,3 +1,17 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'ubuntu';
+}
+header {
+  font-family: 'ubuntu';
+  font-size: 2em;
+  text-align: center;
+}
+header button {
+  background-color: black;
+  border-style: none;
+}
 @font-face {
   font-family: 'openSansRegular';
   src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
